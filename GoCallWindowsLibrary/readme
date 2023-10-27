@@ -1,3 +1,5 @@
 本项目显示了如何在Go里面通过cgo调用Windows dll
 
 dlltool -dllname LibTest.dll --def LibTest.def --output-lib LibTest.a
+
+参考：https://groups.google.com/g/golang-nuts/c/i6UWSCPSRl4
